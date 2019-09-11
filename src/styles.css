@@ -1,0 +1,55 @@
+.App {
+  font-family: sans-serif;
+}
+
+.Stoplight {
+  width: 90px;
+  height: 200px;
+}
+
+.Stoplight .Cord {
+  width: 10px;
+  height: 50px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.Stoplight .Lights {
+  width: 95px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Stoplight .Lights .Green {
+  width: 60px;
+  height: 60px;
+  background-color: green;
+  border-radius: 50%;
+  padding-top: ;
+}
+.Stoplight .Lights .Green.ison {
+  box-shadow: 0px 0px 27px 12px green;
+}
+.Stoplight .Lights .Yellow {
+  width: 60px;
+  height: 60px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+.Stoplight .Lights .Yellow.ison {
+  box-shadow: 0px 0px 27px 12px yellow;
+}
+.Stoplight .Lights .Red {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  border-radius: 50%;
+}
+.Stoplight .Lights .Red.ison {
+  box-shadow: 0px 0px 27px 12px red;
+}
